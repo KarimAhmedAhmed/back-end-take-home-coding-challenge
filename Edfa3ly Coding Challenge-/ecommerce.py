@@ -113,11 +113,6 @@ Jacket_Price = CurrencyConverter(url).convert('USD', currency, objects[2].cost()
 Shoes_Price = CurrencyConverter(url).convert('USD', currency, objects[3].cost())
 
 
-# # if the customer write the products in lower or upper case
-# for i in arr:
-#     i = i.upper()
-
-
 # Calculate the Subtotal of products
 subtotal = 0
 for i in arr:
